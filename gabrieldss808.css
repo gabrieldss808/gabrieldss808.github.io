@@ -11,6 +11,14 @@
 
 }
 
+.bodyPage:hover {
+	height: 500px;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 4%;
+	box-shadow: 2px 2px 2px 2px #131313;
+}
+
 .bodyContent {
 	display: flex;	
   	flex-direction: row;
@@ -35,6 +43,10 @@
   margin-top: 5px;
 }
 
+.redDot:hover {
+	background-color: #FF8B58;	
+}
+
 .yellowDot {
   height: 17px;
   width: 17px;
@@ -45,6 +57,11 @@
   margin-top: 5px;
 }
 
+.yellowDot:hover {
+	background-color: #FFD72E;	
+}
+
+
 .greenDot {
   height: 17px;
   width: 17px;
@@ -53,6 +70,10 @@
   display: inline-block;
   margin-left: 5px;
   margin-top: 5px;
+}
+
+.greenDot:hover {
+	background-color: #31FF60;
 }
 
 body {
