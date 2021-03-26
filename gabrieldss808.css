@@ -102,7 +102,6 @@ img {
 
 h2 {
 	padding-left: 25px;
-
 }
 
 .buttonGroup {
@@ -114,7 +113,8 @@ button {
 	background-color: #282A36;
 	border-style: none;
 	border-radius: 7px;
-	height: 45px;
+	height: 80px;
+	margin-right: 40px;
 	color: #fff
 }
 
@@ -122,35 +122,26 @@ button:hover {
 	background-color: #606582;
 }
 
-
-/* Smartphones (retrato e paisagem) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* Styles */
-.bodyContent {
-		display: flex; 	
-	  	flex-direction: column; 
-	  	margin-top: 15px;
-	  	justify-content: center;
+@media only screen and (max-width: 600px) {
+  	.bodyPage:hover { 
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		box-shadow: 2px 2px 2px 2px #131313;
 	}
-}
 
-/* Smartphones (paisagem) ----------- */
-@media only screen 
-and (min-width : 321px) {
-/* Styles */
-	
-}
-
-/* Smartphones (retrato) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
 	.bodyContent {
-		display: flex; 	
-	  	flex-direction: column; 
+		height: 100%;
+		display: flex;	
+	  	flex-direction: column;
 	  	margin-top: 15px;
-  	 	justify-content: center;		
+	}
+	button {
+		background-color: #282A36;
+		border-style: none;
+		border-radius: 7px;
+		height: 70px;
+		color: #fff
+		margin:10px;
 	}
 }
