@@ -1,9 +1,6 @@
 
 .bodyPage {
 	background-color: #282A36; 
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 5%;
 	border-radius: 11px;
 	box-shadow: 2px 2px 2px 2px black;
 	font-family: ROBOTO;
@@ -13,9 +10,9 @@
 
 .bodyPage:hover {
 	height: 500px;
-	margin-left: 7%;
-	margin-right: 7%;
-	margin-top: 4%;
+	margin-left: -7%;
+	margin-right: -7%;
+	margin-top: -4%;
 	box-shadow: 2px 2px 2px 2px #131313;
 }
 
@@ -79,6 +76,9 @@
 body {
 
 	background-color: #383A59;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
 }
 
 p {
@@ -103,4 +103,54 @@ img {
 h2 {
 	padding-left: 25px;
 
+}
+
+.buttonGroup {
+	margin-top: 25px;
+}
+
+button {
+
+	background-color: #282A36;
+	border-style: none;
+	border-radius: 7px;
+	height: 45px;
+	color: #fff
+}
+
+button:hover {
+	background-color: #606582;
+}
+
+
+/* Smartphones (retrato e paisagem) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+.bodyContent {
+		display: flex; 	
+	  	flex-direction: column; 
+	  	margin-top: 15px;
+	  	justify-content: center;
+	}
+}
+
+/* Smartphones (paisagem) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+	
+}
+
+/* Smartphones (retrato) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+	.bodyContent {
+		display: flex; 	
+	  	flex-direction: column; 
+	  	margin-top: 15px;
+  	 	justify-content: center;		
+	}
 }
