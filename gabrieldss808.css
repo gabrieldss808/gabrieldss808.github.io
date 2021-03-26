@@ -1,0 +1,58 @@
+
+.bodyPage {
+	background-color: #282A36; 
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	border-radius: 7px;
+	box-shadow: 2px 2px 2px 2px black;
+	font-family: ROBOTO;
+	color:#fff;
+
+}
+
+.menuSuperior {
+
+	border-radius: 7px;
+	height: 27px;
+	background-color: #282923;
+}
+
+.redDot {
+  height: 17px;
+  width: 17px;
+  background-color: #FF5F58;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.yellowDot {
+  height: 17px;
+  width: 17px;
+  background-color: #FFBD2E;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.greenDot {
+  height: 17px;
+  width: 17px;
+  background-color: #28CA42;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+body {
+
+	background-color: #383A59;
+}
+
+p {
+	padding: 25px;
+}
