@@ -1,5 +1,3 @@
-
-<div style="backgroun-color:#a5a5a;">
 # Hi there I'am Gabriel!👋
 
 ### I'm a Junior developer and I'm constantly learning! 😄
@@ -14,4 +12,3 @@ Here are some ideas to get you started:
 - :camera: [My Instagram](https://www.instagram.com/gabrieldasilva42/?hl=pt-br)
 
 ### Lets Code!! 😄
-</div>
