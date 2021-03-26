@@ -12,3 +12,5 @@ Here are some ideas to get you started:
 - :camera: [My Instagram](https://www.instagram.com/gabrieldasilva42/?hl=pt-br)
 
 ### Lets Code!! 😄
+
+[My Linkedln](Pagina1.md)
