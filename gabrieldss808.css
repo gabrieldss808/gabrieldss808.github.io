@@ -4,16 +4,23 @@
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 5%;
-	border-radius: 7px;
+	border-radius: 11px;
 	box-shadow: 2px 2px 2px 2px black;
 	font-family: ROBOTO;
 	color:#fff;
 
 }
 
+.bodyContent {
+	display: flex;	
+  	flex-direction: row;
+  	margin-top: 15px;
+}
+
 .menuSuperior {
 
-	border-radius: 7px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
 	height: 27px;
 	background-color: #282923;
 }
@@ -54,5 +61,25 @@ body {
 }
 
 p {
-	padding: 25px;
+	padding-left: 25px;
+}
+
+a {
+    text-decoration:none;
+    color: #FFBD2E;
+  }
+
+a:hover { 
+    color: #28CA42;
+}	
+
+img {
+	margin-top: 15px;
+	border-radius: 15px;
+	margin-left: 25px
+}
+
+h2 {
+	padding-left: 25px;
+
 }
