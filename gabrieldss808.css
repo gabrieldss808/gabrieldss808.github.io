@@ -136,12 +136,14 @@ button:hover {
 	  	flex-direction: column;
 	  	margin-top: 15px;
 	}
-	button {
-		background-color: #282A36;
-		border-style: none;
-		border-radius: 7px;
+	button {		
 		height: 70px;
 		color: #fff
 		margin:10px;
+	}
+	body {
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-top: 1%;
 	}
 }
