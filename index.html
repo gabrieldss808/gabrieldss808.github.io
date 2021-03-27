@@ -7,11 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="gabrieldss808.js"></script>
+	<link rel="icon" href="icon.png">
 </head>
 <body>
 <div class="bodyPage">
 	<div class="menuSuperior">
-		<span class="redDot"></span>
 		<span class="yellowDot"></span>
 		<span class="greenDot"></span>
 	</div>
@@ -35,12 +35,13 @@
 			<h2>Lets Code!! 😄</h2>
 			<br>	
 		</div>
+		<button onclick="showWindow('OptionsMenu')">Menu</button>
 	</div>
 </div>
-<hr>
-<div class="bodyPage" id="two">
+<hr class="OptionsMenu" style="display: none;">
+<div class="bodyPage OptionsMenu" id="two" style="display: none;">
 	<div class="menuSuperior">
-		<span class="redDot"></span>
+		<span class="redDot" onclick="closeWindows('OptionsMenu')"></span>
 		<span class="yellowDot"></span>
 		<span class="greenDot"></span>
 	</div>
@@ -48,21 +49,8 @@
 		<div>gabrielSouza:~$ ls
 		</div>		
 		<div class="buttonGroup">
-		<button onclick="showWindow('Myproperties')">My Properties.py</button>
-		<button>My Projects.py</button>
-		</div>
-	</div>
-</div>
-<div class="bodyPage Myproperties" style="display: none" id="there">
-	<div class="menuSuperior">
-		<span class="redDot" onclick="closeWindows('Myproperties')"></span>
-		<span class="yellowDot"></span>
-		<span class="greenDot"></span>
-	</div>
-	<div class="bodyContentList">
-		<div>
-		<br> - My Name is Gabriel Da Silva Souza
-		<br>
+		<button onclick="location.href='MyProperties.html';">My Properties</button>
+		<button>My Projects</button>
 		</div>
 	</div>
 </div>

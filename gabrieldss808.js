@@ -4,7 +4,7 @@ function showWindow(classText) {
 
     $("html, body").animate({
         scrollTop: ($("." + classText).first().offset().top)
-    }, 1000);
+    }, 2000);
 }
 
 function closeWindows(classText) {
