@@ -9,5 +9,5 @@ function showWindow(classText) {
 
 function closeWindows(classText) {
 
-    $("." + classText).hide(700);
+    $("." + classText).hide(1000);
 }
