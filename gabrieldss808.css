@@ -1,151 +1,156 @@
-
 .bodyPage {
-	background-color: #282A36; 
-	border-radius: 11px;
-	box-shadow: 2px 2px 2px 2px black;
-	font-family: ROBOTO;
-	color:#fff;
-
+    background-color: #282A36;
+    border-radius: 11px;
+    box-shadow: 2px 2px 2px 2px black;
+    font-family: ROBOTO;
+    color: #fff;
+    margin-bottom: 55px;
+    transition: 0.7s;
 }
 
 .bodyPage:hover {
-	height: 500px;
-	margin-left: -7%;
-	margin-right: -7%;
-	margin-top: -4%;
-	box-shadow: 2px 2px 2px 2px #131313;
+    margin-left: -2%;
+    margin-right: -2%;
+    margin-top: -1%;
+    box-shadow: 2px 2px 2px 2px #131313;
+    transition: 0.7s;
 }
 
 .bodyContent {
-	display: flex;	
-  	flex-direction: row;
-  	margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.bodyContentList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    font-size: 25px;
+    margin-left: 25px;
 }
 
 .menuSuperior {
-
-	border-top-left-radius: 7px;
-	border-top-right-radius: 7px;
-	height: 27px;
-	background-color: #282923;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 27px;
+    background-color: #282923;
 }
 
 .redDot {
-  height: 17px;
-  width: 17px;
-  background-color: #FF5F58;
-  border-radius: 50%;
-  display: inline-block;
-  margin-left: 5px;
-  margin-top: 5px;
+    height: 17px;
+    width: 17px;
+    background-color: #FF5F58;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .redDot:hover {
-	background-color: #FF8B58;	
+    background-color: #FF8B58;
 }
 
 .yellowDot {
-  height: 17px;
-  width: 17px;
-  background-color: #FFBD2E;
-  border-radius: 50%;
-  display: inline-block;
-  margin-left: 5px;
-  margin-top: 5px;
+    height: 17px;
+    width: 17px;
+    background-color: #FFBD2E;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .yellowDot:hover {
-	background-color: #FFD72E;	
+    background-color: #FFD72E;
 }
 
-
 .greenDot {
-  height: 17px;
-  width: 17px;
-  background-color: #28CA42;
-  border-radius: 50%;
-  display: inline-block;
-  margin-left: 5px;
-  margin-top: 5px;
+    height: 17px;
+    width: 17px;
+    background-color: #28CA42;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .greenDot:hover {
-	background-color: #31FF60;
+    background-color: #31FF60;
 }
 
 body {
-
-	background-color: #383A59;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 5%;
+    background-color: #383A59;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
 }
 
 p {
-	padding-left: 25px;
+    padding-left: 25px;
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
     color: #FFBD2E;
-  }
+}
 
-a:hover { 
+a:hover {
     color: #28CA42;
-}	
+}
 
 img {
-	margin-top: 15px;
-	border-radius: 15px;
-	margin-left: 25px
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-left: 25px
 }
 
 h2 {
-	padding-left: 25px;
+    padding-left: 25px;
 }
 
 .buttonGroup {
-	margin-top: 25px;
+    margin-top: 25px;
 }
 
 button {
-
-	background-color: #282A36;
-	border-style: none;
-	border-radius: 7px;
-	height: 80px;
-	margin-right: 40px;
-	color: #fff
+    background-color: #282A36;
+    border-style: dashed;
+    border-radius: 7px;
+    height: 45px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 30px;
 }
 
 button:hover {
-	background-color: #606582;
+    background-color: #606582;
 }
 
 @media only screen and (max-width: 600px) {
-  	.bodyPage:hover { 
-  		height: 690px;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 0px;
-		box-shadow: 2px 2px 2px 2px #131313;
-	}
-
-	.bodyContent {
-		display: flex;	
-	  	flex-direction: column;
-	  	margin-top: 15px;
-	}
-	button {		
-		height: 70px;
-		color: #fff
-		margin:25px;
-		margin-bottom: 25px;
-	}
-	body {
-		padding-left: 1%;
-		padding-right: 1%;
-		padding-top: 1%;
-		justify-content: center;
-	}
+    .bodyPage:hover {
+        height: 690px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        box-shadow: 2px 2px 2px 2px #131313;
+    }
+    .bodyContent {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    button {
+        height: 70px;
+        color: #fff;
+        margin: 25px;
+        margin-bottom: 25px;
+    }
+    body {
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 1%;
+        justify-content: center;
+    }
 }

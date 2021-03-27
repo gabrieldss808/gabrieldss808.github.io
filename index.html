@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="gabrieldss808.css">
+	<link rel="stylesheet" type="text/css" href="gabrieldss808.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="gabrieldss808.js"></script>
 </head>
 <body>
 <div class="bodyPage">
@@ -13,7 +15,7 @@
 		<span class="yellowDot"></span>
 		<span class="greenDot"></span>
 	</div>
-	<div class="bodyContent">
+	<div class="bodyContent" id="one">
 		<img alt="" width="260" height="260" class="avatar avatar-user width-full border color-bg-primary" src="https://avatars.githubusercontent.com/u/45453977?v=4">	
 
 		<div>
@@ -35,9 +37,33 @@
 		</div>
 	</div>
 </div>
-<div class="buttonGroup">
-	<button>My Properties.exe</button>		
+<div class="bodyPage" id="two">
+	<div class="menuSuperior">
+		<span class="redDot"></span>
+		<span class="yellowDot"></span>
+		<span class="greenDot"></span>
+	</div>
+	<div class="bodyContentList">
+		<div>gabrielSouza:~$ ls
+		</div>		
+		<div class="buttonGroup">
+		<button onclick="showWindow('Myproperties')">My Properties.py</button>
+		<button>My Projects.py</button>
+		</div>
+	</div>
 </div>
-
+<div class="bodyPage Myproperties" style="display: none" id="there">
+	<div class="menuSuperior">
+		<span class="redDot" onclick="closeWindows('Myproperties')"></span>
+		<span class="yellowDot"></span>
+		<span class="greenDot"></span>
+	</div>
+	<div class="bodyContentList">
+		<div>
+		<br> - My Name is Gabriel Da Silva Souza
+		<br>
+		</div>
+	</div>
+</div>
 </body>
 </html>
