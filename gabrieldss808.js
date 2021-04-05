@@ -1,3 +1,5 @@
+import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
+
 function showWindow(classText) {
 
     $("." + classText).show()
@@ -16,7 +18,7 @@ function alterDataJson() {
 
     const octokit = new Octokit({ auth: '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' });
 
-    await octokit.request('PUT repos/gabrieldss808/gabrieldss808.github.io/contents/data/data.json', {
+    const result = await octokit.request('PUT repos/gabrieldss808/gabrieldss808.github.io/contents/data/data.json', {
         owner: 'gabrieldss808',
         repo: 'gabrieldss808.github.io',
         path: 'data/data.json',
