@@ -1,5 +1,3 @@
-import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
-
 function showWindow(classText) {
 
     $("." + classText).show()
