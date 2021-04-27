@@ -1,6 +1,6 @@
 function showWindow(classText) {
 
-    $("." + classText).show()
+    $("." + classText).show(500)
 
     $("html, body").animate({
         scrollTop: ($("." + classText).first().offset().top)
