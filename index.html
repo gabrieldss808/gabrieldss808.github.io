@@ -8,6 +8,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="gabrieldss808.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate.js"></script>
+	<script
+		type="module"
+		src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"
+	></script>
 	<link rel="icon" href="icon.png">
 	<link rel='manifest' href='/manifest.json'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -65,9 +69,5 @@
 	const el = document.createElement('pwa-update');
 	document.body.appendChild(el);
 </script>	
-<script
-  type="module"
-  src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"
-></script>
 </body>
 </html>
