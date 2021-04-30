@@ -1,0 +1,23 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "",
+    "short_name": "",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://gabrieldss808.github.io/",
+    "background_color": "#000000",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "https://gabrieldss808.github.io/icon.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        }
+    ],
+    "url": "https://gabrieldss808.github.io/"
+}
