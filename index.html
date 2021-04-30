@@ -11,6 +11,7 @@
 	<link rel='manifest' href='/manifest.json'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#4E517A">
+	<link rel="canonical" href="https://gabrieldss808.github.io/gabrieldss808.github.io/"/>
 </head>
 <body>
 <div class="bodyPage">
@@ -59,5 +60,13 @@
 		</div>
 	</div>
 </div>
+<script>
+  // register ServiceWorker, remember to use absolute path!
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/gabrieldss808.github.io/sw.js', {scope: '/gabrieldss808.github.io/'})
+  }
+  
+  // --- Application code here ---
+  </script>
 </body>
 </html>
