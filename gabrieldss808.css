@@ -1,164 +1,55 @@
-.bodyPage {
-    background-color: #282A36;
-    border-radius: 11px;
-    font-family: ROBOTO;
-    color: #fff;
-    margin-bottom: 27.5px;
-    margin-top: 5px;
-    transition: 0.7s;
-}
-
-.bodyPage:hover {
-    margin-left: -2%;
-    margin-right: -2%;
-    margin-top: -1%;
-    box-shadow: 2px 2px 2px 2px #131313;
-    transition: 0.7s;
-}
-
-.bodyContent {
-    display: flex;
-    flex-direction: row;
-    margin-top: 15px;
-    padding-bottom: 15px;
-}
-
-.bodyContentList {
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-    font-size: 25px;
-    margin-left: 25px;
-}
-
-.menuSuperior {
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    height: 27px;
-    background-color: #282A36;
-}
-
-.redDot {
-    height: 17px;
-    width: 17px;
-    background-color: #FF5F58;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 5px;
-    margin-top: 5px;
-}
-
-.redDot:hover {
-    background-color: #FF8B58;
-}
-
-.yellowDot {
-    height: 17px;
-    width: 17px;
-    background-color: #FFBD2E;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 5px;
-    margin-top: 5px;
-}
-
-.yellowDot:hover {
-    background-color: #FFD72E;
-}
-
-.greenDot {
-    height: 17px;
-    width: 17px;
-    background-color: #28CA42;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 5px;
-    margin-top: 5px;
-}
-
-.greenDot:hover {
-    background-color: #31FF60;
-}
-
 body {
-    background: linear-gradient(150deg, #4D5079 40%, #343652 60%);
-    background-size: 100% 100%;
-    height: 93vh;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 2%;
+    background: #2D2E30;
+    height: 1200px;
 }
 
-p {
-    padding-left: 25px;
-}
-
-a {
-    text-decoration: none;
-    color: #FFBD2E;
-}
-
-hr {
-    height: 4px;
-    background-color: #fff;
-    border-radius: 4px;
+.logoTitle {
+    font-family: 'Calibri';
+    color: #CBCBCB;
     width: 100%;
-    margin-right: 25px !important;
 }
 
-a:hover {
-    color: #28CA42;
+.logo1 {
+    content: url(img/logo1.png);
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 32%;
+    object-fit: cover;
+    object-position: -20% 0;
+    width: 0px;
+    display: none;
 }
 
-img {
-    margin-top: 15px;
-    border-radius: 15px;
-    margin-left: 25px
+.logo2 {
+    content: url(img/tagINI.png);
+    height: 24%;
+    position: absolute;
+    top: 243px;
+    left: 43%;
 }
 
-h2 {
-    padding-left: 25px;
+.logo3 {
+    content: url(img/tagCLOSE.png);
+    height: 15%;
+    position: absolute;
+    top: 278px;
+    left: 51%;
 }
 
-.buttonGroup {
-    margin-top: 25px;
-}
-
-button {
-    background-color: #282A36;
-    border-style: dotted;
-    border-radius: 10px;
-    height: 45px;
-    margin-right: 40px;
-    margin-bottom: 10px;
-    color: #fff;
-    font-size: 30px;
-}
-
-button:hover {
-    background-color: #606582;
+.logo4 {
+    content: url(img/logo2.png);
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    object-fit: cover;
+    object-position: -20% 0;
+    width: 0px;
+    display: none;
 }
 
 @media only screen and (max-width: 600px) {
-    .bodyPage:hover {
-        margin-left: -2%;
-        margin-right: -2%;
-        margin-top: -1%;
-        box-shadow: 2px 2px 2px 2px #131313;
-        transition: 0.7s;
-    }
-    .bodyContent {
-        display: flex;
-        flex-direction: column;
-        margin-top: 15px;
-    }
-    button {
-        height: 70px;
-        color: #fff;
-        margin-bottom: 10px;
-        margin-left: 25px;
-        font-size: 27px;
-    }
     body {
         padding-left: 2%;
         padding-right: 2%;
@@ -166,4 +57,19 @@ button:hover {
         justify-content: center;
         height: 100%;
     }
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #2D2E30;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px #2D2E30;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2D2E30;
+    border-radius: 7px;
+    height: 50px;
 }
