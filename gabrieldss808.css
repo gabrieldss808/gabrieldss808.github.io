@@ -9,47 +9,60 @@ body {
     width: 100%;
 }
 
-.logo1 {
-    content: url(img/logo1.png);
-    height: 24%;
-    position: absolute;
-    top: 19%;
-    left: 30%;
-    display: none;
-    transition: 400ms;
-}
-
-.logo2 {
-    content: url(img/logo2.png);
-    height: 24%;
-    position: absolute;
-    top: 41%;
-    left: 46%;
-    display: none;
-    transition: 400ms;
-}
-
 .logoFinal {
-    content: url(img/logoMain.png);
-    height: 12%;
+    shape-rendering: geometricPrecision;
+    text-rendering: geometricPrecision;
+    image-rendering: optimizeQuality;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
     position: absolute;
     top: 19%;
     left: 8%;
     display: none;
-    transition: 400ms;
+    background: #454546 linear-gradient( 0deg, #454546 1rem, rgba(14, 18, 18, 0) 39vh);
+    z-index: 1000;
+}
+
+.ToplateralBar {
+    width: 1px;
+    height: 61%;
+    position: fixed;
+    top: 0%;
+    left: 15.1%;
+    display: none;
+    background: #4285f4 linear-gradient( 180deg, #454546 1rem, rgba(14, 18, 18, 0) 20vh);
 }
 
 .lateralBar {
-    width: 2px;
-    height: 1200px;
-    position: absolute;
-    top: 28%;
-    left: 12%;
-    border: 1px solid #fff;
-    background-color: #fff;
-    border-radius: 10px;
+    width: 4px;
+    height: 61%;
+    position: fixed;
+    top: 39%;
+    left: 15%;
     display: none;
-    margin-bottom: 150px;
+    background: #fff linear-gradient( 0deg, #454546 1rem, rgba(14, 18, 18, 0) 20vh);
+    z-index: 1000;
+}
+
+.initialPoint {
+    height: 18px;
+    width: 18px;
+    position: fixed;
+    background-color: #2978FF;
+    border-radius: 50%;
+    left: 14.5%;
+    top: 253px;
+    display: none;
+    z-index: 1001;
+}
+
+.centralConteiner {
+    width: 73%;
+    height: 1200px;
+    top: 47%;
+    position: absolute;
+    margin-right: 18%;
+    margin-left: 18%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -63,7 +76,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 5px;
     background-color: #2D2E30;
 }
 
@@ -72,7 +85,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #2D2E30;
+    background: #5D96F4;
     border-radius: 7px;
-    height: 50px;
 }
