@@ -1,6 +1,7 @@
 body {
     background: #454546;
-    min-height: 570px
+    min-height: 570px;
+    min-width: 500px;
 }
 
 .logoTitle {

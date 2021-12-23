@@ -16,6 +16,8 @@ $(document).ready(function() {
         var scroll_position = $(window).scrollTop();
 
         scroollAnimations(height, scroll_position)
+
+        leftCorrections()
     });
 
     ini();
@@ -80,8 +82,6 @@ function animateLateralBar(ScreenHeight, ScrollTop) {
     var heightLateralBar = PercentHeightLtB - ScrollTop
     var heightLateralBarTop = PercentHeightLtBT - ScrollTop
 
-    console.log(ScrollTop)
-
     if (object_position_top >= (ScreenHeight / 2)) {
         object_position_top = ScreenHeight / 2;
 
@@ -117,19 +117,11 @@ function animateLateralBar(ScreenHeight, ScrollTop) {
         });
     }
 
-    // if (object_position_top == 253) {
-    //     $('.ToplateralBar').hide();
-    // }
+}
 
-    // if (object_position_top >= 253) {
-
-    // }
-
-    // if (object_position_top >= 317) {
-
-    //     $('.ToplateralBar').css({
-    //         'top': '7%'
-    //     });
-    // }
-
+function leftCorrections() {
+    var lateralBarLeft = parseFloat($(".lateralBar").css("left").replace("px", ''))
+    var pointWidth = parseFloat($(".initialPoint").css("width").replace("px", '')) / 2
+    var FinalLeft = lateralBarLeft - pointWidth + 1
+    $(".initialPoint").css("left", FinalLeft + "px")
 }
